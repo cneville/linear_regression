@@ -4,7 +4,7 @@ import pandas as pd
 from pandas import ExcelWriter
 from pandas import ExcelFile
 
-df = pd.read_excel('slr02.xls')
+df = pd.read_excel('./input_files/slr02.xls')
 
 cricket_chirps = df['X']
 temp = df['Y']
