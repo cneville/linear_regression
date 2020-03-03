@@ -1,3 +1,5 @@
 # 
 matplotlib
 xlrd
+django
+pytest
